@@ -4,7 +4,7 @@
 *.ap_
 
 # keystores
-keystores/**
+# keystores/**
 
 # files for the dex VM
 *.dex
