@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ImageView imageView = (ImageView) findViewById(R.id.imageView1);
+        ImageView imageView = (ImageView) findViewById(R.id.main_image);
         Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.profile_image);
         RoundedBitmapDrawable roundedBitmapDrawable = RoundedBitmapDrawableFactory.create(getResources(), bitmap);
         roundedBitmapDrawable.setCircular(true);
