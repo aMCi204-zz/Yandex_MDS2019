@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "304539149161",
+    "firebase_url": "https://com-amciof-yandex-mds2019.firebaseio.com",
+    "project_id": "com-amciof-yandex-mds2019",
+    "storage_bucket": "com-amciof-yandex-mds2019.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304539149161:android:8b87b71cb39bb034",
+        "android_client_info": {
+          "package_name": "com.amciof.Yandex_MDS2019"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "304539149161-iai77v2ln2jqeug5u04og1kv4gpvq2qu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDihWVLPlz_HBWTpRGtEZUovyRb1K0cc_g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
