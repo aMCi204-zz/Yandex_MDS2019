@@ -38,8 +38,8 @@ android {
         applicationId "com.amciof.Yandex_MDS2019"
         minSdkVersion 16
         targetSdkVersion 28
-        versionCode 103
-        versionName "1.0.3"
+        versionCode 104
+        versionName "1.0.4"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
