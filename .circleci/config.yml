@@ -35,6 +35,14 @@ jobs:
     - store_artifacts: # for display in Artifacts: https://circleci.com/docs/2.0/artifacts/
         path: app/build/outputs/apk
         destination: release
+  deploy:
+    docker:
+    - image: circleci/android:api-28-alpha
+    branches:
+      only:
+      - master
+    steps:
+    - checkout
     - deploy:
         name: Deploy APK.
         command: |
