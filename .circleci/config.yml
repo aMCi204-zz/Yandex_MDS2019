@@ -43,7 +43,7 @@ jobs:
     - store_artifacts:
         path: app/build/reports
         destination: reports
-  import_fabric properties:
+  import_fabric_properties:
     working_directory: ~/code
     docker:
     - image: circleci/android:api-28-alpha
