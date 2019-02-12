@@ -20,6 +20,8 @@
             </intent-filter>
         </activity>
     </application>
-
+    <meta-data
+        android:name="io.fabric.ApiKey"
+        android:value="${api_key_crashlytics}"/>
     <uses-permission android:name="android.permission.INTERNET" />
 </manifest>
