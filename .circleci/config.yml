@@ -56,10 +56,6 @@ jobs:
     - run:
         name: Import Properties
         command: echo -e "apiSecret=${FABRIC_API_SECRET}\napiKey=${FABRIC_API_KEY}" >> ~/code/app/fabric.properties
-    - persist_to_workspace:
-        root: ~/code
-        paths:
-        - app/fabric.properties
   build_app:
     working_directory: ~/code
     docker:
