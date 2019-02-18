@@ -42,8 +42,8 @@ android {
         applicationId "com.amciof.Yandex_MDS2019"
         minSdkVersion 16
         targetSdkVersion 28
-        versionCode 108
-        versionName "1.0.8"
+        versionCode 109
+        versionName "1.0.9"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         manifestPlaceholders = [FABRIC_API_SECRET:fabricProperties['apiSecret']]
         manifestPlaceholders = [FABRIC_API_KEY:fabricProperties['apiKey']]
@@ -53,7 +53,7 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.config
-            ext.betaDistributionGroupAliases = 'Yandex_amciof'
+            ext.betaDistributionGroupAliases = 'slavamaharenok'
         }
     }
     lintOptions {
