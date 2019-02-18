@@ -4,7 +4,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'io.fabric.tools:gradle:1.+'
+        classpath 'io.fabric.tools:gradle:1.27.1'
     }
 }
 apply plugin: 'com.android.application'
@@ -19,7 +19,16 @@ def keystorePropertiesFile = file("keystore.properties")
 def keystoreProperties = new Properties()
 keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
 
+def fabricPropertiesFile = file("fabric.properties")
+def fabricProperties = new Properties()
+fabricProperties.load(new FileInputStream(fabricPropertiesFile))
+
 android {
+    applicationVariants.all { variant ->
+        variant.outputs.all { output ->
+            outputFileName = "app_${variant.versionName}_${variant.buildType.name}.apk"
+        }
+    }
     signingConfigs {
         config {
             keyAlias keystoreProperties['keyAlias']
@@ -33,9 +42,11 @@ android {
         applicationId "com.amciof.Yandex_MDS2019"
         minSdkVersion 16
         targetSdkVersion 28
-        versionCode 101
-        versionName "1.0.1"
+        versionCode 108
+        versionName "1.0.8"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        manifestPlaceholders = [FABRIC_API_SECRET:fabricProperties['apiSecret']]
+        manifestPlaceholders = [FABRIC_API_KEY:fabricProperties['apiKey']]
     }
     buildTypes {
         release {
@@ -47,6 +58,8 @@ android {
     }
     lintOptions {
         abortOnError false
+        quiet true
+        lintConfig file('./code_quality_tools/lint.xml')
     }
 }
 
@@ -57,7 +70,9 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-    implementation 'com.crashlytics.sdk.android:crashlytics:2.9.8'
+    implementation('com.crashlytics.sdk.android:crashlytics:2.9.9@aar') {
+        transitive = true;
+    }
 
     def appCenterSdkVersion = '1.11.2'
     implementation "com.microsoft.appcenter:appcenter-analytics:${appCenterSdkVersion}"
@@ -68,3 +83,4 @@ dependencies {
 }
 
 apply plugin: 'com.google.gms.google-services'
+apply from: 'code_quality_tools/quality.gradle'
