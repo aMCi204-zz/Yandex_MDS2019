@@ -64,6 +64,7 @@ public class ActivityLauncher
         if (!wasStarted) {
             Intent intent = new Intent(this, ActivityWelcomePage.class);
             startActivity(intent);
+            finish();
         }
 
         super.onCreate(savedInstanceState);
