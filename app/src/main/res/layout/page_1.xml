@@ -15,14 +15,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_chainStyle="packed"
-        app:srcCompat="@drawable/web_photo" />
+        app:srcCompat="@drawable/web_photo_round" />
 
     <TextView
         android:id="@+id/text_view_main"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="@string/application_name"
+        android:text="@string/info_name"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/text_view_minor"
         app:layout_constraintEnd_toEndOf="parent"

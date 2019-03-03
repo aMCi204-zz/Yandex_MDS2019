@@ -17,7 +17,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.amciof.Yandex_MDS2019.Profile.ActivityMain;
+import com.amciof.Yandex_MDS2019.Profile.ActivityProfile;
 import com.amciof.Yandex_MDS2019.R;
 import com.amciof.Yandex_MDS2019.Settings.ActivitySettings;
 import com.amciof.Yandex_MDS2019.SlidePagerAdapter;
@@ -86,7 +86,7 @@ public class ActivityLauncher
         headerview.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), ActivityMain.class);
+                Intent intent = new Intent(getApplicationContext(), ActivityProfile.class);
                 startActivity(intent);
             }
         });
