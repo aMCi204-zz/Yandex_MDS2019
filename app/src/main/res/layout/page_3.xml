@@ -7,36 +7,36 @@
     android:padding="16dp">
 
     <RadioGroup
-        android:id="@+id/radioGroupTheme"
+        android:id="@+id/radio_group_theme"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginBottom="16dp"
         android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/buttonNext"
+        app:layout_constraintBottom_toTopOf="@+id/button_next"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <RadioButton
-            android:id="@+id/radioButtonLight"
+            android:id="@+id/radio_button_light"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
             android:text="@string/theme_light"
-            android:background="@drawable/border"
+            android:background="@xml/border"
             android:layout_marginBottom="16dp" />
 
         <RadioButton
-            android:id="@+id/radioButtonDark"
+            android:id="@+id/radio_button_dark"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
             android:text="@string/theme_dark"
-            android:background="@drawable/border" />
+            android:background="@xml/border" />
 
     </RadioGroup>
 
     <Button
-        android:id="@+id/buttonNext"
+        android:id="@+id/button_next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/button_next"

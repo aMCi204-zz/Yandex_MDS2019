@@ -1,4 +1,5 @@
-package com.amciof.Yandex_MDS2019.WelcomePage;
+package com.amciof.Yandex_MDS2019;
+
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -6,7 +7,10 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 import java.util.List;
 
-public class SlidePagerAdapter extends FragmentPagerAdapter {
+
+
+public class SlidePagerAdapter
+        extends FragmentPagerAdapter {
 
     private List<Fragment> fragmentList;
 

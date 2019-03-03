@@ -1,4 +1,5 @@
-package com.amciof.Yandex_MDS2019.WelcomePage.fragments;
+package com.amciof.Yandex_MDS2019.WelcomePage;
+
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -15,19 +16,23 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 
 import com.amciof.Yandex_MDS2019.R;
-import com.amciof.Yandex_MDS2019.WelcomePage.ActivityWelcomePage;
 
 import static com.amciof.Yandex_MDS2019.ListOfApplications.ActivityLauncher.SETTINGS_NAME;
 import static com.amciof.Yandex_MDS2019.ListOfApplications.ActivityLauncher.KEY_MODEL;
 import static com.amciof.Yandex_MDS2019.ListOfApplications.ActivityLauncher.MODEL_DENSE;
 import static com.amciof.Yandex_MDS2019.ListOfApplications.ActivityLauncher.MODEL_STANDART;
 
-public class FragmentModel extends Fragment implements View.OnClickListener, RadioGroup.OnCheckedChangeListener {
+
+
+public class FragmentModel
+        extends Fragment
+        implements RadioGroup.OnCheckedChangeListener {
 
     private RadioGroup radioGroupModel;
     private RadioButton radioButtonStandart;
     private RadioButton radioButtonDense;
     private Button buttonNext;
+
     private SharedPreferences sharedPreferences;
 
     @Nullable
@@ -38,12 +43,12 @@ public class FragmentModel extends Fragment implements View.OnClickListener, Rad
 
         ViewGroup rootView = (ViewGroup) inflater.inflate(R.layout.page_4, container,false);
 
-        radioGroupModel = rootView.findViewById(R.id.radioGroupModel);
+        radioGroupModel = rootView.findViewById(R.id.radio_group_model);
         radioGroupModel.setOnCheckedChangeListener(this);
 
-        radioButtonStandart = rootView.findViewById(R.id.radioButtonStandart);
+        radioButtonStandart = rootView.findViewById(R.id.radio_button_standart);
 
-        radioButtonDense = rootView.findViewById(R.id.radioButtonDense);
+        radioButtonDense = rootView.findViewById(R.id.radio_button_dense);
 
         sharedPreferences = getActivity().getSharedPreferences(SETTINGS_NAME, Context.MODE_PRIVATE);
         String theme = sharedPreferences.getString(KEY_MODEL, MODEL_STANDART);
@@ -56,7 +61,7 @@ public class FragmentModel extends Fragment implements View.OnClickListener, Rad
                 break;
         }
 
-        buttonNext = rootView.findViewById(R.id.buttonNext);
+        buttonNext = rootView.findViewById(R.id.button_next);
         buttonNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -68,22 +73,13 @@ public class FragmentModel extends Fragment implements View.OnClickListener, Rad
     }
 
     @Override
-    public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.buttonNext:
-                ((ActivityWelcomePage)getActivity()).nextPage();
-                break;
-        }
-    }
-
-    @Override
     public void onCheckedChanged(RadioGroup group, int checkedId) {
         Editor editor = sharedPreferences.edit();
         switch (checkedId) {
-            case R.id.radioButtonStandart:
+            case R.id.radio_button_standart:
                 editor.putString(KEY_MODEL, MODEL_STANDART);
                 break;
-            case R.id.radioButtonDense:
+            case R.id.radio_button_dense:
                 editor.putString(KEY_MODEL, MODEL_DENSE);
                 break;
         }

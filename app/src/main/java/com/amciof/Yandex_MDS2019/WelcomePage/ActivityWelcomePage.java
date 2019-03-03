@@ -10,10 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 
 import com.amciof.Yandex_MDS2019.ListOfApplications.ActivityLauncher;
 import com.amciof.Yandex_MDS2019.R;
-import com.amciof.Yandex_MDS2019.WelcomePage.fragments.FragmentAuthor;
-import com.amciof.Yandex_MDS2019.WelcomePage.fragments.FragmentApplication;
-import com.amciof.Yandex_MDS2019.WelcomePage.fragments.FragmentTheme;
-import com.amciof.Yandex_MDS2019.WelcomePage.fragments.FragmentModel;
+import com.amciof.Yandex_MDS2019.SlidePagerAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,7 +18,10 @@ import java.util.List;
 import static com.amciof.Yandex_MDS2019.ListOfApplications.ActivityLauncher.SETTINGS_NAME;
 import static com.amciof.Yandex_MDS2019.ListOfApplications.ActivityLauncher.KEY_WAS_STARTED;
 
-public class ActivityWelcomePage extends AppCompatActivity {
+
+
+public class ActivityWelcomePage
+        extends AppCompatActivity {
 
     private ViewPager viewPager;
 
@@ -29,6 +29,7 @@ public class ActivityWelcomePage extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome_page);
 
@@ -38,7 +39,7 @@ public class ActivityWelcomePage extends AppCompatActivity {
         list.add(new FragmentTheme());
         list.add(new FragmentModel());
 
-        viewPager = findViewById(R.id.viewPager);
+        viewPager = findViewById(R.id.view_pager);
         PagerAdapter pagerAdapter = new SlidePagerAdapter(getSupportFragmentManager(), list);
         viewPager.setAdapter(pagerAdapter);
     }
@@ -52,6 +53,7 @@ public class ActivityWelcomePage extends AppCompatActivity {
             editor.apply();
             Intent intent = new Intent(this, ActivityLauncher.class);
             startActivity(intent);
+            finish();
         } else {
             viewPager.setCurrentItem(currentPage + 1, true);
         }
