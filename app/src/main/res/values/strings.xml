@@ -1,4 +1,48 @@
 <resources>
-    <string name="main_name">Vyacheslav Maharenok</string>
-    <string name="main_github">https://github.com/amciof</string>
+    <string name="info_name">Slava Makharenok</string>
+    <string name="info_github" translatable="false">https://github.com/amciof</string>
+    <string name="info_phone" translatable="false">+375(29)11-13-07</string>
+    <string name="info_email" translatable="false">amciof@yandex.com</string>
+
+    <string name="button_next">Next</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_list">List</string>
+    <string name="action_grid">Grid</string>
+    <string name="action_sort">Sort</string>
+
+    <string name="application_welcome">You are welcome!</string>
+    <string name="application_description">Course project in Yandex</string>
+
+    <string name="theme_light">Light theme</string>
+    <string name="theme_dark">Dark theme</string>
+
+    <string name="model_standart">Standart model</string>
+    <string name="model_dense">Dense model</string>
+    <string name="model_description_standard" translatable="false">"Portrait: 4 icons in a row\nLandscape: 6 icons in a row"</string>
+    <string name="model_description_dense" translatable="false">"Portrait: 5 icons in a row\nLandscape: 7 icons in a row"</string>
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <string name="menu_group_navigation">Navigation</string>
+    <string name="action_ascending_sort">Ascending sort</string>
+    <string name="action_descending_sort">Descending sort</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_info">Information</string>
+    <string name="action_runs">"Starts: "</string>
+
+    <string name="pref_model_title">Model</string>
+    <string name="pref_model_summary">Establish model for a grid</string>
+    <string name="pref_model_dialog_title">Choose model type</string>
+    <string name="pref_theme_title">Theme</string>
+    <string name="pref_theme_summary">Establish theme</string>
+    <string name="pref_theme_dialog_title">Choose theme type</string>
+    <string name="pref_sort_title">Sort</string>
+    <string name="pref_sort_summary">Establish sorting type</string>
+    <string name="pref_sort_dialog_title">Choose sorting type</string>
+    <string name="pref_show_welcome_page_title">Welcome page</string>
+    <string name="pref_show_welcome_page_summary">Show Welcome page in next launch</string>
+
+
 </resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="info_name">Slava Makharenok</string>
+    <string name="button_next">Siguiente</string>
+    <string name="application_welcome">Bienvenido a</string>
+    <string name="application_description">Proyecto del curso en Yandex</string>
+    <string name="action_ascending_sort">Orden ascendente</string>
+    <string name="action_delete">Borrar</string>
+    <string name="action_descending_sort">Orden descendente</string>
+    <string name="action_grid">Cuadrícula</string>
+    <string name="action_info">Información</string>
+    <string name="action_list">Lista</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="action_sort">Ordenar</string>
+    <string name="menu_group_navigation">Navegación</string>
+    <string name="model_dense">Modelo denso</string>
+    <string name="model_standart">Modelo estandar</string>
+    <string name="theme_dark">Tema oscuro</string>
+    <string name="theme_light">Tema ligero</string>
+    <string name="action_runs">Empieza:</string>
+    <string name="pref_model_title">Modelo</string>
+    <string name="pref_model_summary">Establecer modelo para una grilla.</string>
+    <string name="pref_model_dialog_title">Elija el tipo de modelo</string>
+    <string name="pref_theme_title">Tema</string>
+    <string name="pref_theme_summary">Establecer tema</string>
+    <string name="pref_theme_dialog_title">Elija el tipo de tema</string>
+    <string name="pref_sort_title">Ordenar</string>
+    <string name="pref_sort_summary">Establecer tipo de clasificación</string>
+    <string name="pref_sort_dialog_title">Elija el tipo de clasificación</string>
+    <string name="pref_show_welcome_page_title">Pagina de bienvenida</string>
+    <string name="pref_show_welcome_page_summary">Mostrar página de bienvenida en el próximo lanzamiento</string>
+</resources>

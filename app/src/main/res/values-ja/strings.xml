@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="info_name">Slava Makharenok</string>
+    <string name="application_description">Yandexでのコースプロジェクト</string>
+    <string name="application_welcome">へようこそ</string>
+    <string name="button_next">次へ</string>
+    <string name="action_ascending_sort">昇順ソート</string>
+    <string name="action_delete">削除する</string>
+    <string name="action_descending_sort">降順</string>
+    <string name="action_grid">グリッド</string>
+    <string name="action_info">情報</string>
+    <string name="action_list">リスト</string>
+    <string name="action_settings">設定</string>
+    <string name="action_sort">ソート</string>
+    <string name="menu_group_navigation">ナビゲーション</string>
+    <string name="model_dense">密なモデル</string>
+    <string name="model_standart">標準モデル</string>
+    <string name="theme_dark">暗いテーマ</string>
+    <string name="theme_light">軽いテーマ</string>
+    <string name="action_runs">開始します。</string>
+    <string name="pref_model_title">モデル</string>
+    <string name="pref_model_summary">グリッドのモデルを確立する</string>
+    <string name="pref_model_dialog_title">モデルの種類を選択</string>
+    <string name="pref_theme_title">テーマ</string>
+    <string name="pref_theme_summary">テーマを設定する</string>
+    <string name="pref_theme_dialog_title">テーマの種類を選択</string>
+    <string name="pref_sort_title">ソート</string>
+    <string name="pref_sort_summary">ソートタイプを設定する</string>
+    <string name="pref_sort_dialog_title">並べ替えの種類を選択してください</string>
+    <string name="pref_show_welcome_page_title">ウェルカムページ</string>
+    <string name="pref_show_welcome_page_summary">次回起動時にウェルカムページを表示</string>
+</resources>
