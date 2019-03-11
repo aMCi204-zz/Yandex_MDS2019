@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="info_name">Slava Makharenok</string>
+    <string name="button_next">Ensuite</string>
+    <string name="application_welcome">Bienvenue</string>
+    <string name="application_description">Projet de cours à Yandex</string>
+    <string name="action_ascending_sort">Tri ascendant</string>
+    <string name="action_delete">Effacer</string>
+    <string name="action_descending_sort">Tri décroissant</string>
+    <string name="action_grid">la grille</string>
+    <string name="action_info">Information</string>
+    <string name="action_list">liste</string>
+    <string name="action_settings">Réglages</string>
+    <string name="action_sort">Trier</string>
+    <string name="menu_group_navigation">La navigation</string>
+    <string name="model_dense">Modèle dense</string>
+    <string name="model_standart">Modèle standard</string>
+    <string name="theme_dark">Thème sombre</string>
+    <string name="theme_light">Thème lumière</string>
+    <string name="action_runs">Départs:</string>
+    <string name="pref_model_title">Modèle</string>
+    <string name="pref_model_summary">Établir un modèle pour une grille</string>
+    <string name="pref_model_dialog_title">Choisissez le type de modèle</string>
+    <string name="pref_theme_title">Thème</string>
+    <string name="pref_theme_summary">Établir un thème</string>
+    <string name="pref_theme_dialog_title">Choisissez le type de thème</string>
+    <string name="pref_sort_title">Trier</string>
+    <string name="pref_sort_summary">Etablir le type de tri</string>
+    <string name="pref_sort_dialog_title">Choisissez le type de tri</string>
+    <string name="pref_show_welcome_page_title">Page d\'accueil</string>
+    <string name="pref_show_welcome_page_summary">Afficher la page de bienvenue lors du prochain lancement</string>
+</resources>

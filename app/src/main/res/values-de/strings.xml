@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="info_name">Slava Makharenok</string>
+    <string name="button_next">Weiter</string>
+    <string name="application_welcome">Willkommen zurück</string>
+    <string name="application_description">Kursprojekt in Yandex</string>
+    <string name="action_ascending_sort">Aufsteigend sortieren</string>
+    <string name="action_delete">Löschen</string>
+    <string name="action_descending_sort">Absteigende Sortierung</string>
+    <string name="action_grid">Gitter</string>
+    <string name="action_info">Information</string>
+    <string name="action_list">Liste</string>
+    <string name="action_settings">die Einstellungen</string>
+    <string name="action_sort">Sortieren</string>
+    <string name="menu_group_navigation">Navigation</string>
+    <string name="model_dense">Dichtes Modell</string>
+    <string name="model_standart">Standard Modell</string>
+    <string name="theme_dark">Dunkles Thema</string>
+    <string name="theme_light">Licht Thema</string>
+    <string name="action_runs">Starts:</string>
+    <string name="pref_model_title">Modell</string>
+    <string name="pref_model_summary">Modell für ein Gitter erstellen</string>
+    <string name="pref_model_dialog_title">Wählen Sie den Modelltyp</string>
+    <string name="pref_theme_title">Thema</string>
+    <string name="pref_theme_summary">Thema festlegen</string>
+    <string name="pref_theme_dialog_title">Wählen Sie den Motivtyp</string>
+    <string name="pref_sort_title">Sortieren</string>
+    <string name="pref_sort_summary">Sortierart festlegen</string>
+    <string name="pref_sort_dialog_title">Wählen Sie die Sortierart</string>
+    <string name="pref_show_welcome_page_title">Startseite</string>
+    <string name="pref_show_welcome_page_summary">Willkommensseite beim nächsten Start anzeigen</string>
+</resources>

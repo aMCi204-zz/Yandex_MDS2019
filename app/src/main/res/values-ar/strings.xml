@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="info_name">فياشيسلاف ماهارانا</string>
+    <string name="application_description">مشروع دورة في ياندكس</string>
+    <string name="application_welcome">على الرحب والسعة</string>
+    <string name="button_next">المزيد</string>
+    <string name="action_ascending_sort">ترتيب تصاعدي</string>
+    <string name="action_delete">حذف</string>
+    <string name="action_descending_sort">تنازلي الفرز</string>
+    <string name="action_grid">شبكة</string>
+    <string name="action_info">معلومات</string>
+    <string name="action_list">قائمة</string>
+    <string name="action_settings">الإعدادات</string>
+    <string name="action_sort">فرز</string>
+    <string name="menu_group_navigation">التنقل</string>
+    <string name="model_dense">نموذج كثيف</string>
+    <string name="model_standart">النموذج القياسي</string>
+    <string name="theme_dark">موضوع مظلم</string>
+    <string name="theme_light">موضوع خفيف</string>
+    <string name="action_runs">يبدأ:</string>
+    <string name="pref_model_title">نموذج</string>
+    <string name="pref_model_summary">إنشاء نموذج للشبكة</string>
+    <string name="pref_model_dialog_title">اختر نوع الموديل</string>
+    <string name="pref_theme_title">موضوع</string>
+    <string name="pref_theme_summary">إنشاء موضوع</string>
+    <string name="pref_theme_dialog_title">اختر نوع السمة</string>
+    <string name="pref_sort_title">فرز</string>
+    <string name="pref_sort_summary">إنشاء نوع الفرز</string>
+    <string name="pref_sort_dialog_title">اختر نوع الفرز</string>
+    <string name="pref_show_welcome_page_title">صفحة الترحيب</string>
+    <string name="pref_show_welcome_page_summary">عرض صفحة الترحيب في الإطلاق التالي</string>
+</resources>

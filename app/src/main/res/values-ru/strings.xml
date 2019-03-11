@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="info_name">Слава Махарёнок</string>
+    <string name="button_next">Далее</string>
+    <string name="application_welcome">Добро пожаловать!</string>
+    <string name="application_description">Курсовая работа в Яндексе</string>
+    <string name="model_standart">Стандартный макет</string>
+    <string name="model_dense">Плотный макет</string>
+    <string name="action_ascending_sort">По возрастанию</string>
+    <string name="action_descending_sort">По убыванию</string>
+    <string name="action_delete">Удалить</string>
+    <string name="action_grid">Сетка</string>
+    <string name="action_info">Информация</string>
+    <string name="action_list">Список</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_sort">Сортировка</string>
+    <string name="menu_group_navigation">Навигация</string>
+    <string name="theme_dark">Тёмная тема</string>
+    <string name="theme_light">Светлая тема</string>
+    <string name="action_runs">Запуски:</string>
+    <string name="pref_model_title">Модель</string>
+    <string name="pref_model_summary">Установите модель для сетки</string>
+    <string name="pref_model_dialog_title">Выберите тип модели</string>
+    <string name="pref_theme_title">Тема</string>
+    <string name="pref_theme_summary">Установить тему</string>
+    <string name="pref_theme_dialog_title">Выберите тип темы</string>
+    <string name="pref_sort_title">Сортировать</string>
+    <string name="pref_sort_summary">Установить тип сортировки</string>
+    <string name="pref_sort_dialog_title">Выберите тип сортировки</string>
+    <string name="pref_show_welcome_page_title">Страница приветствия</string>
+    <string name="pref_show_welcome_page_summary">Показать страницу приветствия при следующем запуске</string>
+</resources>
