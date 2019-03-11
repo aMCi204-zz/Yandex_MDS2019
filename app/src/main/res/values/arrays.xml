@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pref_model_entries">
+        <item>Standart</item>
+        <item>Dense</item>
+    </string-array>
+
+    <string-array name="pref_model_values">
+        <item>standart</item>
+        <item>dense</item>
+    </string-array>
+
+    <string-array name="pref_theme_entries">
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+
+    <string-array name="pref_theme_values">
+        <item>light</item>
+        <item>dark</item>
+    </string-array>
+
+    <string-array name="pref_sort_entries">
+        <item>Ascending by label</item>
+        <item>Descending by label</item>
+        <item>Ascending by first install time</item>
+        <item>Descending by first install time</item>
+        <item>Ascending by launches</item>
+        <item>Descending by launches</item>
+    </string-array>
+
+    <string-array name="pref_sort_values">
+        <item>ascending_by_label</item>
+        <item>descending_by_label</item>
+        <item>ascending_by_date</item>
+        <item>descending_by_date</item>
+        <item>ascending_by_launches</item>
+        <item>descending_by_launches</item>
+    </string-array>
+
+</resources>
