@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="info_name">slava makharana</string>
+    <string name="button_next">עוד</string>
+    <string name="application_welcome">אין בעד מה.</string>
+    <string name="application_description">פרוייקט מסלול ביינדקס</string>
+    <string name="action_ascending_sort">סדר עולה</string>
+    <string name="action_delete">מחק</string>
+    <string name="action_descending_sort">סדר יורד</string>
+    <string name="action_grid">רשת</string>
+    <string name="action_info">מידע</string>
+    <string name="action_list">רשימה</string>
+    <string name="action_settings">הגדרות</string>
+    <string name="action_sort">סוג</string>
+    <string name="menu_group_navigation">ניווט</string>
+    <string name="model_dense">מודל צפוף</string>
+    <string name="model_standart">מודל סטנדרטי</string>
+    <string name="theme_dark">ערכת נושא כהה</string>
+    <string name="theme_light">נושא קל</string>
+    <string name="action_runs">התחלה:</string>
+    <string name="pref_model_title">דגם</string>
+    <string name="pref_model_summary">להקים מודל עבור רשת</string>
+    <string name="pref_model_dialog_title">בחר סוג דגם</string>
+    <string name="pref_theme_title">נושא</string>
+    <string name="pref_theme_summary">צור את הנושא</string>
+    <string name="pref_theme_dialog_title">בחר סוג ערכת נושא</string>
+    <string name="pref_sort_title">סוג</string>
+    <string name="pref_sort_summary">קבע סוג מיון</string>
+    <string name="pref_sort_dialog_title">בחר סוג מיון</string>
+    <string name="pref_show_welcome_page_title">עמוד פתיחה</string>
+    <string name="pref_show_welcome_page_summary">הצג את דף הפתיחה בהפעלה הבאה</string>
+</resources>

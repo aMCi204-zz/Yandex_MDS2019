@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Activities.Profile.ActivityProfile"
+    tools:showIn="@layout/activity_profile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:id="@+id/action_github"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/action_github_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                app:srcCompat="@drawable/ic_account" />
+
+            <TextView
+                android:id="@+id/action_github_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_toEndOf="@id/action_github_icon"
+                android:layout_toRightOf="@id/action_github_icon"
+                android:text="@string/info_github"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#212121" />
+
+        </RelativeLayout>
+
+        <include layout="@layout/item_divider" />
+
+        <RelativeLayout
+            android:id="@+id/action_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/action_phone_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                app:srcCompat="@drawable/ic_phone" />
+
+            <TextView
+                android:id="@+id/action_phone_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_toEndOf="@id/action_phone_icon"
+                android:layout_toRightOf="@id/action_phone_icon"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="@string/info_phone"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#212121" />
+
+        </RelativeLayout>
+
+        <include layout="@layout/item_divider" />
+
+        <RelativeLayout
+            android:id="@+id/action_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/action_email_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                app:srcCompat="@drawable/ic_email" />
+
+            <TextView
+                android:id="@+id/action_email_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_toEndOf="@id/action_email_icon"
+                android:layout_toRightOf="@id/action_email_icon"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="@string/info_email"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#212121" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

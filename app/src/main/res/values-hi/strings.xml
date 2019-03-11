@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="info_name">व्याचेस्लाव महाराणा</string>
+    <string name="application_description">yandex में पाठ्यक्रम परियोजना</string>
+    <string name="application_welcome">आप काफी स्वागत कर रहे हैं</string>
+    <string name="button_next">आगे</string>
+    <string name="action_ascending_sort">आरोही प्रकार</string>
+    <string name="action_delete">हटाना</string>
+    <string name="action_descending_sort">अवरोही प्रकार</string>
+    <string name="action_grid">ग्रिड</string>
+    <string name="action_info">जानकारी</string>
+    <string name="action_list">सूची</string>
+    <string name="action_settings">सेटिंग्स</string>
+    <string name="action_sort">तरह</string>
+    <string name="menu_group_navigation">पथ प्रदर्शन</string>
+    <string name="model_dense">घने मॉडल</string>
+    <string name="model_standart">मानक मॉडल</string>
+    <string name="theme_dark">डार्क थीम</string>
+    <string name="theme_light">प्रकाश विषय</string>
+    <string name="action_runs">प्रारंभ तिथि:</string>
+    <string name="pref_model_title">आदर्श</string>
+    <string name="pref_model_summary">एक ग्रिड के लिए मॉडल स्थापित करें</string>
+    <string name="pref_model_dialog_title">मॉडल प्रकार चुनें</string>
+    <string name="pref_theme_title">विषय</string>
+    <string name="pref_theme_summary">थीम स्थापित करें</string>
+    <string name="pref_theme_dialog_title">थीम प्रकार चुनें</string>
+    <string name="pref_sort_title">तरह</string>
+    <string name="pref_sort_summary">सॉर्टिंग प्रकार स्थापित करें</string>
+    <string name="pref_sort_dialog_title">सॉर्टिंग प्रकार चुनें</string>
+    <string name="pref_show_welcome_page_title">स्वागत पृष्ठ</string>
+    <string name="pref_show_welcome_page_summary">अगले लॉन्च में आपका स्वागत है पृष्ठ</string>
+</resources>
