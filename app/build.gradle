@@ -12,6 +12,7 @@ apply plugin: 'io.fabric'
 
 repositories {
     maven { url 'https://maven.fabric.io/public' }
+    mavenCentral()
 }
 
 
@@ -47,6 +48,7 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         manifestPlaceholders = [FABRIC_API_SECRET: fabricProperties['apiSecret']]
         manifestPlaceholders = [FABRIC_API_KEY: fabricProperties['apiKey']]
+        android.defaultConfig.vectorDrawables.useSupportLibrary = true
     }
     buildTypes {
         release {

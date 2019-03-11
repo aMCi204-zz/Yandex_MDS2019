@@ -24,7 +24,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginEnd="16dp"
             android:text="@string/model_standart"
-            android:background="@xml/border" />
+            android:background="@drawable/border" />
 
         <RadioButton
             android:id="@+id/radio_button_dense"
@@ -32,7 +32,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="@string/model_dense"
-            android:background="@xml/border" />
+            android:background="@drawable/border" />
 
     </RadioGroup>
 

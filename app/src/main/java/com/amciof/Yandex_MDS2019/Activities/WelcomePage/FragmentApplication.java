@@ -1,4 +1,4 @@
-package com.amciof.Yandex_MDS2019.WelcomePage;
+package com.amciof.Yandex_MDS2019.Activities.WelcomePage;
 
 
 import android.os.Bundle;
@@ -9,7 +9,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-
 import com.amciof.Yandex_MDS2019.R;
 
 
@@ -17,9 +16,6 @@ import com.amciof.Yandex_MDS2019.R;
 public class FragmentApplication
         extends Fragment {
 
-    private Button buttonNext;
-
-    @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater,
                              @Nullable ViewGroup container,
@@ -27,7 +23,7 @@ public class FragmentApplication
 
         ViewGroup rootView = (ViewGroup) inflater.inflate(R.layout.page_2, container,false);
 
-        buttonNext = rootView.findViewById(R.id.button_next);
+        Button buttonNext = rootView.findViewById(R.id.button_next);
         buttonNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

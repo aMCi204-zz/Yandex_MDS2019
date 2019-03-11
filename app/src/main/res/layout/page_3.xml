@@ -22,7 +22,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:text="@string/theme_light"
-            android:background="@xml/border"
+            android:background="@drawable/border"
             android:layout_marginBottom="16dp" />
 
         <RadioButton
@@ -31,7 +31,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:text="@string/theme_dark"
-            android:background="@xml/border" />
+            android:background="@drawable/border" />
 
     </RadioGroup>
 

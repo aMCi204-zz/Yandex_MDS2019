@@ -5,28 +5,39 @@
     package="com.amciof.Yandex_MDS2019">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
         android:allowBackup="true"
         android:hardwareAccelerated="false"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/application_name"
+        android:label="@string/info_name"
         android:largeHeap="true"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
 
-        <activity android:name=".ListOfApplications.ActivityLauncher">
+        <activity android:name=".Activities.ListOfApplications.ActivityLauncher">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
-        <activity android:name=".WelcomePage.ActivityWelcomePage"></activity>
+        <activity
+            android:name=".Activities.WelcomePage.ActivityWelcomePage"
+            android:parentActivityName=".Activities.ListOfApplications.ActivityLauncher" />
 
-        <activity android:name=".ListOfApplications.ActivityMain"></activity>
+        <activity
+            android:name=".Activities.Profile.ActivityProfile"
+            android:parentActivityName=".Activities.ListOfApplications.ActivityLauncher" />
+
+        <activity
+            android:name=".Activities.Settings.ActivitySettings"
+            android:parentActivityName=".Activities.ListOfApplications.ActivityLauncher" />
 
         <meta-data
             android:name="io.fabric.ApiKey"
