@@ -6,8 +6,6 @@
     <string name="application_description">Курсовая работа в Яндексе</string>
     <string name="model_standart">Стандартный макет</string>
     <string name="model_dense">Плотный макет</string>
-    <string name="action_ascending_sort">По возрастанию</string>
-    <string name="action_descending_sort">По убыванию</string>
     <string name="action_delete">Удалить</string>
     <string name="action_grid">Сетка</string>
     <string name="action_info">Информация</string>
@@ -29,4 +27,10 @@
     <string name="pref_sort_dialog_title">Выберите тип сортировки</string>
     <string name="pref_show_welcome_page_title">Страница приветствия</string>
     <string name="pref_show_welcome_page_summary">Показать страницу приветствия при следующем запуске</string>
+    <string name="sort_ascending_date">По возрастанию даты установки</string>
+    <string name="sort_ascending_launches">По возрастанию количества запусков</string>
+    <string name="sort_ascending_name">По возрастанию имени</string>
+    <string name="sort_descending_date">По убыванию даты установки</string>
+    <string name="sort_descending_launches">По убыванию количества запусков</string>
+    <string name="sort_descending_name">По убыванию имени</string>
 </resources>

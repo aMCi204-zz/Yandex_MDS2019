@@ -4,9 +4,7 @@
     <string name="application_description">yandex में पाठ्यक्रम परियोजना</string>
     <string name="application_welcome">आप काफी स्वागत कर रहे हैं</string>
     <string name="button_next">आगे</string>
-    <string name="action_ascending_sort">आरोही प्रकार</string>
     <string name="action_delete">हटाना</string>
-    <string name="action_descending_sort">अवरोही प्रकार</string>
     <string name="action_grid">ग्रिड</string>
     <string name="action_info">जानकारी</string>
     <string name="action_list">सूची</string>
@@ -29,4 +27,10 @@
     <string name="pref_sort_dialog_title">सॉर्टिंग प्रकार चुनें</string>
     <string name="pref_show_welcome_page_title">स्वागत पृष्ठ</string>
     <string name="pref_show_welcome_page_summary">अगले लॉन्च में आपका स्वागत है पृष्ठ</string>
+    <string name="sort_ascending_date">आरोही स्थापना तिथि</string>
+    <string name="sort_ascending_launches">लॉन्च की संख्या बढ़ाना</string>
+    <string name="sort_ascending_name">आरोही नाम</string>
+    <string name="sort_descending_date">स्थापना दिनांक का वर्णन करना</string>
+    <string name="sort_descending_launches">उतरने की संख्या</string>
+    <string name="sort_descending_name">अवरोही नाम</string>
 </resources>

@@ -14,7 +14,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import com.amciof.Yandex_MDS2019.R;
+import com.amciof.Yandex_MDS2019.SPHelper;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 
@@ -60,6 +62,30 @@ public class FragmentList
     @Override
     public void onResume() {
         super.onResume();
+
+        String comparator = SPHelper.getString(getContext(), SPHelper.SORT, SPHelper.ASCENDING_BY_LABEL);
+
+        switch (comparator) {
+            case SPHelper.ASCENDING_BY_LABEL:
+                Collections.sort(applicationList, ApplicationInfo.ASCENDING_BY_LABEL);
+                break;
+            case SPHelper.ASCENDING_BY_DATE :
+                Collections.sort(applicationList, ApplicationInfo.ASCENDING_BY_DATE);
+                break;
+            case SPHelper.ASCENDING_BY_LAUNCHES:
+                Collections.sort(applicationList, ApplicationInfo.ASCENDING_BY_LAUNCHES);
+                break;
+            case SPHelper.DESCENDING_BY_LABEL:
+                Collections.sort(applicationList, ApplicationInfo.DESCENDING_BY_LABEL);
+                break;
+            case SPHelper.DESCENDING_BY_DATE:
+                Collections.sort(applicationList, ApplicationInfo.DESCENDING_BY_DATE);
+                break;
+            case SPHelper.DESCENDING_BY_LAUNCHES:
+                Collections.sort(applicationList, ApplicationInfo.DESCENDING_BY_LAUNCHES);
+                break;
+        }
+
         adapter.notifyDataSetChanged();
     }
 
