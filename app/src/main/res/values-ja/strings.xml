@@ -4,9 +4,7 @@
     <string name="application_description">Yandexでのコースプロジェクト</string>
     <string name="application_welcome">へようこそ</string>
     <string name="button_next">次へ</string>
-    <string name="action_ascending_sort">昇順ソート</string>
     <string name="action_delete">削除する</string>
-    <string name="action_descending_sort">降順</string>
     <string name="action_grid">グリッド</string>
     <string name="action_info">情報</string>
     <string name="action_list">リスト</string>
@@ -29,4 +27,10 @@
     <string name="pref_sort_dialog_title">並べ替えの種類を選択してください</string>
     <string name="pref_show_welcome_page_title">ウェルカムページ</string>
     <string name="pref_show_welcome_page_summary">次回起動時にウェルカムページを表示</string>
+    <string name="sort_ascending_date">インストール日の昇順</string>
+    <string name="sort_ascending_launches">打ち上げ数を増やす</string>
+    <string name="sort_ascending_name">昇順の名前</string>
+    <string name="sort_descending_date">インストール日の降順</string>
+    <string name="sort_descending_launches">打ち上げ数の減少</string>
+    <string name="sort_descending_name">降順の名前</string>
 </resources>

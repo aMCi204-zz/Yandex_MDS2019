@@ -4,9 +4,7 @@
     <string name="application_description">مشروع دورة في ياندكس</string>
     <string name="application_welcome">على الرحب والسعة</string>
     <string name="button_next">المزيد</string>
-    <string name="action_ascending_sort">ترتيب تصاعدي</string>
     <string name="action_delete">حذف</string>
-    <string name="action_descending_sort">تنازلي الفرز</string>
     <string name="action_grid">شبكة</string>
     <string name="action_info">معلومات</string>
     <string name="action_list">قائمة</string>
@@ -29,4 +27,10 @@
     <string name="pref_sort_dialog_title">اختر نوع الفرز</string>
     <string name="pref_show_welcome_page_title">صفحة الترحيب</string>
     <string name="pref_show_welcome_page_summary">عرض صفحة الترحيب في الإطلاق التالي</string>
+    <string name="sort_ascending_date">تاريخ التركيب</string>
+    <string name="sort_ascending_launches">زيادة عدد عمليات الإطلاق</string>
+    <string name="sort_ascending_name">اسم تصاعدي</string>
+    <string name="sort_descending_date">تنازلي تاريخ التثبيت</string>
+    <string name="sort_descending_launches">تنازلي عدد عمليات الإطلاق</string>
+    <string name="sort_descending_name">اسم تنازلي</string>
 </resources>

@@ -2,8 +2,8 @@
 <resources>
 
     <string-array name="pref_model_entries">
-        <item>Standart</item>
-        <item>Dense</item>
+        <item>@string/model_standart</item>
+        <item>@string/model_dense</item>
     </string-array>
 
     <string-array name="pref_model_values">
@@ -12,8 +12,8 @@
     </string-array>
 
     <string-array name="pref_theme_entries">
-        <item>Light</item>
-        <item>Dark</item>
+        <item>@string/theme_light</item>
+        <item>@string/theme_dark</item>
     </string-array>
 
     <string-array name="pref_theme_values">
@@ -22,12 +22,12 @@
     </string-array>
 
     <string-array name="pref_sort_entries">
-        <item>Ascending by label</item>
-        <item>Descending by label</item>
-        <item>Ascending by first install time</item>
-        <item>Descending by first install time</item>
-        <item>Ascending by launches</item>
-        <item>Descending by launches</item>
+        <item>@string/sort_ascending_name</item>
+        <item>@string/sort_descending_name</item>
+        <item>@string/sort_ascending_date</item>
+        <item>@string/sort_descending_date</item>
+        <item>@string/sort_ascending_launches</item>
+        <item>@string/sort_descending_launches</item>
     </string-array>
 
     <string-array name="pref_sort_values">

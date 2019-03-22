@@ -4,9 +4,7 @@
     <string name="button_next">עוד</string>
     <string name="application_welcome">אין בעד מה.</string>
     <string name="application_description">פרוייקט מסלול ביינדקס</string>
-    <string name="action_ascending_sort">סדר עולה</string>
     <string name="action_delete">מחק</string>
-    <string name="action_descending_sort">סדר יורד</string>
     <string name="action_grid">רשת</string>
     <string name="action_info">מידע</string>
     <string name="action_list">רשימה</string>
@@ -29,4 +27,10 @@
     <string name="pref_sort_dialog_title">בחר סוג מיון</string>
     <string name="pref_show_welcome_page_title">עמוד פתיחה</string>
     <string name="pref_show_welcome_page_summary">הצג את דף הפתיחה בהפעלה הבאה</string>
+    <string name="sort_ascending_date">עולה תאריך התקנה</string>
+    <string name="sort_ascending_launches">הגדלת מספר ההשקות</string>
+    <string name="sort_ascending_name">שם עולה</string>
+    <string name="sort_descending_date">יורד בתאריך ההתקנה</string>
+    <string name="sort_descending_launches">יורד מספר השקות</string>
+    <string name="sort_descending_name">שם יורד</string>
 </resources>

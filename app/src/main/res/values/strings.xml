@@ -26,8 +26,8 @@
     <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
 
     <string name="menu_group_navigation">Navigation</string>
-    <string name="action_ascending_sort">Ascending sort</string>
-    <string name="action_descending_sort">Descending sort</string>
+    <string name="sort_ascending_name">Ascending by name</string>
+    <string name="sort_descending_name">Descending by name</string>
     <string name="action_delete">Delete</string>
     <string name="action_info">Information</string>
     <string name="action_runs">"Starts: "</string>
@@ -43,6 +43,10 @@
     <string name="pref_sort_dialog_title">Choose sorting type</string>
     <string name="pref_show_welcome_page_title">Welcome page</string>
     <string name="pref_show_welcome_page_summary">Show Welcome page in next launch</string>
+    <string name="sort_ascending_date">Ascending by installation date</string>
+    <string name="sort_descending_date">Descending by the installation date</string>
+    <string name="sort_ascending_launches">Increasing by the number of launches</string>
+    <string name="sort_descending_launches">Descending by number of launches</string>
 
 
 </resources>

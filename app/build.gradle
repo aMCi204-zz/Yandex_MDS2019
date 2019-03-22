@@ -43,8 +43,8 @@ android {
         applicationId "com.amciof.Yandex_MDS2019"
         minSdkVersion 16
         targetSdkVersion 28
-        versionCode 200
-        versionName "2.0.0"
+        versionCode 201
+        versionName "2.0.1"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         manifestPlaceholders = [FABRIC_API_SECRET: fabricProperties['apiSecret']]
         manifestPlaceholders = [FABRIC_API_KEY: fabricProperties['apiKey']]
