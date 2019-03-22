@@ -4,9 +4,7 @@
     <string name="button_next">Weiter</string>
     <string name="application_welcome">Willkommen zurück</string>
     <string name="application_description">Kursprojekt in Yandex</string>
-    <string name="action_ascending_sort">Aufsteigend sortieren</string>
     <string name="action_delete">Löschen</string>
-    <string name="action_descending_sort">Absteigende Sortierung</string>
     <string name="action_grid">Gitter</string>
     <string name="action_info">Information</string>
     <string name="action_list">Liste</string>
@@ -29,4 +27,10 @@
     <string name="pref_sort_dialog_title">Wählen Sie die Sortierart</string>
     <string name="pref_show_welcome_page_title">Startseite</string>
     <string name="pref_show_welcome_page_summary">Willkommensseite beim nächsten Start anzeigen</string>
+    <string name="sort_ascending_date">Aufsteigendes Installationsdatum</string>
+    <string name="sort_ascending_launches">Anzahl der Starts erhöhen</string>
+    <string name="sort_ascending_name">Aufsteigender Name</string>
+    <string name="sort_descending_date">Installationsdatum absteigend</string>
+    <string name="sort_descending_launches">Absteigende Anzahl von Starts</string>
+    <string name="sort_descending_name">Absteigender Name</string>
 </resources>

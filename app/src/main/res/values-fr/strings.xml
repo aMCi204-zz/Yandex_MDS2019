@@ -4,9 +4,7 @@
     <string name="button_next">Ensuite</string>
     <string name="application_welcome">Bienvenue</string>
     <string name="application_description">Projet de cours à Yandex</string>
-    <string name="action_ascending_sort">Tri ascendant</string>
     <string name="action_delete">Effacer</string>
-    <string name="action_descending_sort">Tri décroissant</string>
     <string name="action_grid">la grille</string>
     <string name="action_info">Information</string>
     <string name="action_list">liste</string>
@@ -29,4 +27,10 @@
     <string name="pref_sort_dialog_title">Choisissez le type de tri</string>
     <string name="pref_show_welcome_page_title">Page d\'accueil</string>
     <string name="pref_show_welcome_page_summary">Afficher la page de bienvenue lors du prochain lancement</string>
+    <string name="sort_ascending_date">Date d\'installation ascendante</string>
+    <string name="sort_ascending_launches">Augmenter le nombre de lancements</string>
+    <string name="sort_ascending_name">Nom croissant</string>
+    <string name="sort_descending_date">Décroissant la date d\'installation</string>
+    <string name="sort_descending_launches">Nombre décroissant de lancements</string>
+    <string name="sort_descending_name">Nom décroissant</string>
 </resources>
